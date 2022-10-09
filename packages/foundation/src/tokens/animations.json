@@ -1,0 +1,7 @@
+{
+  "animations": {
+    "default": {
+      "value": "all 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000)"
+    }
+  }
+}

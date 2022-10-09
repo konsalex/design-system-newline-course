@@ -1,0 +1,39 @@
+import { Meta, Canvas, Story } from '@storybook/addon-docs';
+import '@newline-ds/foundation/src/typography.css';
+import '@newline-ds/foundation/lib/tokens/css/tokens.css';
+
+<Meta
+  title="Newline/Typography"
+  parameters={{ previewTabs: { canvas: { hidden: true } } }}
+/>
+
+<Canvas>
+  <Story name="Typography">
+    <style>
+      {`
+      .typescale {
+        display: flex;
+        flex-direction: column;
+        gap: 32px; /* 24px + 8px */
+      }
+      body {
+        color: var(--colors-neutral-900);
+      }
+     `}
+    </style>
+    <div className="typescale" style={{ marginTop: '24px' }}>
+      <span className="subtitle-2">TYPOGRAPHY SCALES</span>
+      {/* We could use h1,h2,h3 without class names but */}
+      {/* Storybook implicitely applies classes in stories */}
+      <h1 className="h1">Heading 1</h1>
+      <h2 className="h2">Heading 2</h2>
+      <h3 className="h3">Heading 3</h3>
+      <div className="subtitle-1">Subtitle 1</div>
+      <div className="subtitle-2">Subtitle 2</div>
+      <div className="body-1-semi">Body 1 (Semibold)</div>
+      <div className="body-1-medium">Body 1 (Medium)</div>
+      <div className="body-2-semi">Body 2 (Semibold)</div>
+      <div className="body-2-medium">Body 2 (Medium)</div>
+    </div>
+  </Story>
+</Canvas>

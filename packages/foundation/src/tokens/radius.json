@@ -1,0 +1,10 @@
+{
+  "radius": {
+    "small": {
+      "value": "8px"
+    },
+    "large": {
+      "value": "20px"
+    }
+  }
+}

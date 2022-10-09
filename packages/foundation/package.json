@@ -1,0 +1,17 @@
+{
+  "name": "@newline-ds/foundation",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck",
+    "tsc-ve": "tsc --version"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "typescript": "^4.7.2"
+  }
+}

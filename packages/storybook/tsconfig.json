@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./stories",
+    "outDir": "./lib",
+    "downlevelIteration": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["./stories"]
+}

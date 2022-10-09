@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: 0.047rem;
+  line-height: 4.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 4rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 3rem;
+}
+
+.subtitle-1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+}
+
+.subtitle-2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.025rem;
+  line-height: 1.75rem;
+}
+
+.body-1-medium {
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.75rem;
+}
+
+.body-1-semi {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.75rem;
+}
+
+.body-2-medium {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
+
+.body-2-semi {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
