@@ -4,7 +4,26 @@
     "baseUrl": "./stories",
     "outDir": "./lib",
     "downlevelIteration": true,
-    "jsx": "react-jsx"
+    "module": "CommonJS",
+    "jsx": "react-jsx",
+    "preserveSymlinks": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "lib": ["es2015", "es2016", "es2017", "dom", "dom.iterable", "esnext"]
   },
   "include": ["./stories"]
 }

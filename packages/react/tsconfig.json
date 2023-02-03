@@ -3,9 +3,12 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "outDir": "./lib",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "declaration": false,
     "downlevelIteration": true,
-    "target": "es3",
-    "jsx": "react-jsx"
+    "target": "ES6",
+    "module": "ES2020"
   },
   "include": ["./src", "./__tests__"]
 }

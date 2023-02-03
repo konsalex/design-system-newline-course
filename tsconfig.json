@@ -17,8 +17,9 @@
     "module": "ESNext",
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
+    "esModuleInterop": true,
     "paths": {
-      "@newline-ds/*": ["packages/*/lib"]
+      "@newline-ds/*": ["packages/*/src"]
     }
   },
   "exclude": ["node_modules", "**/*.test.*"]

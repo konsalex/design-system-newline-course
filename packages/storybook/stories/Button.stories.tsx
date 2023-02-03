@@ -1,13 +1,13 @@
 // import { Button, ButtonProps } from '@newline-ds/react';
 import { Button } from '@newline-ds/react/src/Button';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { Meta, StoryFn } from '@storybook/react';
 
 export default {
   title: 'Newline/Button',
   component: Button,
-} as ComponentMeta<typeof Button>;
+} as Meta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

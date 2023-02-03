@@ -1,6 +1,5 @@
 {
   "name": "@newline-ds/storybook",
-  "packageManager": "yarn@3.2.1",
   "private": true,
   "dependencies": {
     "@newline-ds/foundation": "workspace:^",
@@ -9,21 +8,19 @@
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@mdx-js/react": "^1.6.22",
-    "@storybook/addon-a11y": "^6.5.10",
-    "@storybook/addon-actions": "^6.5.10",
-    "@storybook/addon-docs": "^6.5.10",
-    "@storybook/addon-essentials": "^6.5.10",
-    "@storybook/addon-interactions": "^6.5.10",
-    "@storybook/addon-links": "^6.5.10",
-    "@storybook/builder-webpack4": "^6.5.10",
-    "@storybook/manager-webpack4": "^6.5.10",
-    "@storybook/react": "^6.5.10",
-    "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5",
-    "chromatic": "^6.8.0"
+    "@storybook/addon-actions": "7.0.0-beta.40",
+    "@storybook/addon-docs": "7.0.0-beta.40",
+    "@storybook/addon-essentials": "7.0.0-beta.40",
+    "@storybook/addon-interactions": "7.0.0-beta.40",
+    "@storybook/addon-links": "7.0.0-beta.40",
+    "@storybook/react": "7.0.0-beta.40",
+    "@storybook/react-vite": "7.0.0-beta.40",
+    "storybook": "7.0.0-beta.40",
+    "vite": "4.0.4",
+    "vite-tsconfig-paths": "^3.5.2"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build --quiet -o ./storybook-public"
   }
 }

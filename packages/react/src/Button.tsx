@@ -33,7 +33,7 @@ const ButtonStyled = styled.button<ButtonProps>`
 `;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ disabled, loading, color = 'primary', ...rest }, ref) => {
+  function Button({ disabled, loading, color = 'primary', ...rest }, ref) {
     return (
       <ButtonStyled
         {...rest}
@@ -45,6 +45,6 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   }
 );
 
-Button.displayName = 'Button';
+// Button.displayName = 'Button';
 
-export default Button;
+// export default Button;

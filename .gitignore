@@ -107,8 +107,6 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
-<<<<<<< HEAD
 packages/**/lib/
-=======
->>>>>>> 44d823bfca79f4fa1eaca380a1be8cece7194502
 .yarn/cache
+packages/storybook/storybook-public
