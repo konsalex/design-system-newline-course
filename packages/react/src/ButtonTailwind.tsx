@@ -30,7 +30,7 @@ const ProxyTest = () => {
 };
 
 export const Button = ({ disabled, loading, ...rest }: any) => {
-  const [state, setState] = useState({
+  const [state, _] = useState({
     value: 'Accessible variable',
     components: {
       Header: Test,
