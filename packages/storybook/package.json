@@ -2,7 +2,6 @@
   "name": "@newline-ds/storybook",
   "private": true,
   "dependencies": {
-    "@newline-ds/foundation": "workspace:^",
     "@newline-ds/react": "workspace:^"
   },
   "devDependencies": {

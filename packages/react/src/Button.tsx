@@ -1,4 +1,3 @@
-import { tokens } from '@newline-ds/foundation';
 import styled from 'styled-components';
 import { forwardRef } from 'react';
 
@@ -8,7 +7,7 @@ export interface ButtonProps extends React.ComponentProps<'button'> {
   /** Loading state */
   loading?: boolean;
   /** Color based on the color props */
-  color: keyof typeof tokens.colors;
+  color: "red" | "blue" | "gray";
 }
 
 const ButtonStyled = styled.button<ButtonProps>`
@@ -19,21 +18,10 @@ const ButtonStyled = styled.button<ButtonProps>`
   &:disabled {
     opacity: 40%;
   }
-  /* Inherit from design tokens */
-  transition: ${tokens.animations.default.value};
-  color: ${tokens.colors.neutral.white.value};
-  border-radius: ${tokens.radius.large.value};
-  background-color: ${(props) => tokens.colors[props.color][500].value};
-  &:hover {
-    background-color: ${(props) => tokens.colors[props.color][700].value};
-  }
-  &:active {
-    background-color: ${(props) => tokens.colors[props.color][800].value};
-  }
 `;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  function Button({ disabled, loading, color = 'primary', ...rest }, ref) {
+  function Button({ disabled, loading, color = 'blue', ...rest }, ref) {
     return (
       <ButtonStyled
         {...rest}
