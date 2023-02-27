@@ -20,6 +20,7 @@ export default {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-storysource',
   ],
   async viteFinal(config) {
     // Merge custom configuration into the default config
