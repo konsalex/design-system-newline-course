@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center"><a href="https://www.newline.co/courses/newline-guide-to-building-a-company-component-library/">Building a company design system 🎨</a></h1>
+  <h1 align="center"><a href="https://www.newline.co/courses/build-a-complete-company-design-system">Building a company design system 🎨</a></h1>
   
   <div align="center">
     <strong>
